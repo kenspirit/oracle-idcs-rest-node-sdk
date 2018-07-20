@@ -1,0 +1,34 @@
+{
+  "name": "oracle-idcs-rest-node-sdk",
+  "version": "0.1.0",
+  "description": "Oracle IDCS RESTful API Node.js SDK",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kenspirit/oracle-idcs-rest-node-sdk.git"
+  },
+  "keywords": [
+    "Oracle",
+    "IDCS",
+    "Node.js",
+    "SDK"
+  ],
+  "author": "Ken Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenspirit/oracle-idcs-rest-node-sdk/issues"
+  },
+  "homepage": "https://github.com/kenspirit/oracle-idcs-rest-node-sdk",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.12.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1"
+  }
+}

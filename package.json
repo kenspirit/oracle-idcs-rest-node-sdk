@@ -1,6 +1,6 @@
 {
   "name": "oracle-idcs-rest-node-sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Oracle IDCS RESTful API Node.js SDK",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "eslint-plugin-import": "^2.12.0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "bluebird": "^3.5.1"
+    "bluebird": "^3.5.1",
+    "request": "^2.87.0"
   }
 }

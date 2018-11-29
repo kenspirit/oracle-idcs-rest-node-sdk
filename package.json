@@ -1,6 +1,6 @@
 {
   "name": "oracle-idcs-rest-node-sdk",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Oracle IDCS RESTful API Node.js SDK",
   "main": "index.js",
   "scripts": {

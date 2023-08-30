@@ -2,11 +2,13 @@ module.exports = {
   env: {
     node: true
   },
-  extends: 'airbnb-base',
+  extends: ['standard'],
   rules: {
     'space-before-function-paren': 0,
     // 'no-console': ['warn'],
     'arrow-parens': ['error', 'always'],
     'comma-dangle': ['error', 'never'],
-  }
-}
+    semi: ['error', 'always']
+  },
+  plugins: ['standard', 'promise']
+};

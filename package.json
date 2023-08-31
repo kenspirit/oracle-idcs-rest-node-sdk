@@ -1,6 +1,6 @@
 {
   "name": "oracle-idcs-rest-node-sdk",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Oracle IDCS RESTful API Node.js SDK",
   "main": "index.js",
   "scripts": {
@@ -23,14 +23,13 @@
   },
   "homepage": "https://github.com/kenspirit/oracle-idcs-rest-node-sdk",
   "devDependencies": {
-    "eslint": "^7.26.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-jest": "^27.0.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-standard": "^5.0.0"
+    "eslint": "^8.48.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-node": "^11.1.0"
   },
   "dependencies": {
-    "axios": "^1.2.1",
-    "axios-retry": "^3.6.0"
+    "axios": "^1.5.0",
+    "axios-retry": "^3.7.0"
   }
 }

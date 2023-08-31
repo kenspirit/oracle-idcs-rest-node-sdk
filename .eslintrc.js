@@ -10,5 +10,5 @@ module.exports = {
     'comma-dangle': ['error', 'never'],
     semi: ['error', 'always']
   },
-  plugins: ['standard', 'promise']
+  plugins: ['promise']
 };

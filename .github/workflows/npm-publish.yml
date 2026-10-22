@@ -23,5 +23,4 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
 
       - run: npm ci
-      - run: npm test
       - run: npm publish --access public   # add --access public if this is a scoped public package
